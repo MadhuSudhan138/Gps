@@ -68,6 +68,8 @@ Basic Usage
 ```base
 python3 gps.py
 ```
+---
+
 ## The tool will:
 
 1. Start a Flask server on port 8080
@@ -93,6 +95,8 @@ Access /results to view all captured data:
 - Device fingerprints and canvas hashes
 - Network intelligence reports
 
+---
+
   ## Data Collected
   
    Data Point	| File |	Collection Method |
@@ -107,6 +111,8 @@ Access /results to view all captured data:
    Network Info	| network_info.log	| Network Information API |
    Extended Network	| network_detector.log | External APIs + WebRTC heuristic |
 
+---
+
   ## Log File Structure
   ```
   All logs are appended with timestamps and structured for easy parsing:
@@ -120,6 +126,8 @@ Access /results to view all captured data:
   Google Maps: https://maps.google.com/?q=40.712776,-74.005974
   ========================================================
   ```
+---
+
 # ⚠️ Legal Disclaimer
 This tool is intended ONLY for authorized security testing and educational purposes. Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
