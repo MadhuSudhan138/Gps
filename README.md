@@ -68,11 +68,12 @@ Basic Usage
 ```base
 python3 gps.py
 ```
-# The tool will:
+## The tool will:
 
 1. Start a Flask server on port 8080
 2. Launch a Cloudflared tunnel (if available)
 3. Display the phishing URL and dashboard URL
+
     Then access:
       - http://localhost:8080 - Phishing page
       - http://localhost:8080/results - Dashboard
@@ -107,6 +108,7 @@ Access /results to view all captured data:
    Extended Network	| network_detector.log | External APIs + WebRTC heuristic |
 
   ## Log File Structure
+  ```
   All logs are appended with timestamps and structured for easy parsing:
   ========================================================
   GPS COORDINATES CAPTURED - 2026-06-08 14:30:22
@@ -117,7 +119,7 @@ Access /results to view all captured data:
   Accuracy: 12m
   Google Maps: https://maps.google.com/?q=40.712776,-74.005974
   ========================================================
-
+  ```
 # ⚠️ Legal Disclaimer
 This tool is intended ONLY for authorized security testing and educational purposes. Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
